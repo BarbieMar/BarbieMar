@@ -1,0 +1,28 @@
+{
+  "name": "web3-pos-gateway",
+  "version": "1.0.0",
+  "description": "WEB3 POS Gateway supporting Base, Polygon, BTC Lightning with USDC/USDT stablecoins",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"No tests specified yet\" && exit 0"
+  },
+  "keywords": [
+    "web3",
+    "pos",
+    "payment",
+    "gateway",
+    "base",
+    "polygon",
+    "lightning",
+    "usdc",
+    "usdt",
+    "stablecoin"
+  ],
+  "author": "BarbieMar",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.9.0"
+  }
+}
